@@ -1,0 +1,6 @@
+**/node_modules/
+**/node_modules_linux/
+**/Dockerfile
+**/README.md
+**/LICENSE
+**/.vscode

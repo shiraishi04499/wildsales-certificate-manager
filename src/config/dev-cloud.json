@@ -1,0 +1,11 @@
+{
+  "certificateManager": {
+    "link": "https://cloud.ibm.com/services/cloudcerts/crn%3Av1%3Abluemix%3Apublic%3Acloudcerts%3Ajp-tok%3Aa%2Fc6df066cfa7848ed92f0e835e521fea5%3A8591dec0-4cb1-4b0a-9dd0-24e18c98923a%3A%3A?paneId=settings",
+    "instanseId": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:8591dec0-4cb1-4b0a-9dd0-24e18c98923a::",
+    "certCrn": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:8591dec0-4cb1-4b0a-9dd0-24e18c98923a:certificate:0f7464eb1b18e979e129b34c42b1fb1c",
+    "certificateName": "certificate-dev",
+    "clusterID": "br13ktet0us8fehcp5k0",
+    "clusterName": "mycluster",
+    "secretName": "secret-dev"
+  }
+}

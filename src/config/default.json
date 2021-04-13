@@ -1,0 +1,10 @@
+{
+  "port": 3000,
+  "api": {
+    "prefix": "/api"
+  },
+  "ibmCloud": {
+    "apikey": "oVv6C8qAqpwpa4LekJmyuvofF5Vn-moJ_k0gyEgdRWs3"
+  },
+  "timezone": "Asia/Tokyo"
+}
