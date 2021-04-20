@@ -26,18 +26,12 @@ RUN apt-get dist-upgrade -y
 RUN apt-get clean
 RUN echo 'Finished installing dependencies'
 
-RUN apt-get install git -y
-
 # Install app dependencies
 COPY --from=0 /app/node_modules /app/node_modules
 COPY . /app
 
-# submodule deploy
-RUN git clone https://ToshiyukiWakasugi:05af7404bb590b8f0c1bcb83e3323c695741f4a6@github.com/traceOrg/trace-common-modules.git --branch wildsales
-RUN mv ./trace-common-modules/* ./src/submodules/
-
-ENV NODE_ENV wildsales-cloud
-ENV PORT 4000
+ENV NODE_ENV sales-cloud
+ENV PORT 3000
 USER node
-EXPOSE 4000
+EXPOSE 3000
 CMD ["npm","start"]

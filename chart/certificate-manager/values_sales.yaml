@@ -3,9 +3,9 @@
 replicaCount: 3
 revisionHistoryLimit: 1
 image:
-  repository: jp.icr.io/app-test/trace-consumer-api
-  tag: 1.0.0
-  pullSecret: default-jp-icr-io
+  repository: jp.icr.io/app-sales/certificate-manager
+  tag: '1.0'
+  pullSecret: all-icr-io
   pullPolicy: IfNotPresent
   resources:
     requests:

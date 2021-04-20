@@ -1,3 +1,11 @@
 {
-
+  "certificateManager": {
+    "link": "https://cloud.ibm.com/services/cloudcerts/crn%3Av1%3Abluemix%3Apublic%3Acloudcerts%3Ajp-tok%3Aa%2Fc6df066cfa7848ed92f0e835e521fea5%3A059f9e1e-4e74-4333-a667-5a2e27a38780%3A%3A?paneId=settings",
+    "instanseId": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:059f9e1e-4e74-4333-a667-5a2e27a38780::",
+    "certCrn": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:059f9e1e-4e74-4333-a667-5a2e27a38780:certificate:dd101c138d872c51619d1538d222777c",
+    "certificateName": "certificate-wildsales",
+    "clusterID": "c07pjfjt0ba0ip4t9440",
+    "clusterName": "cluster-wildsales",
+    "secretName": "cluster-wildsales-29564740b91d641f474142cf0102506d-0000"
+  }
 }

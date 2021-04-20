@@ -1,3 +1,11 @@
 {
-  
+  "certificateManager":{
+    "link": "https://cloud.ibm.com/services/cloudcerts/crn%3Av1%3Abluemix%3Apublic%3Acloudcerts%3Ajp-tok%3Aa%2Fc6df066cfa7848ed92f0e835e521fea5%3Ac3378745-7490-4d05-b97e-75c83109c252%3A%3A?paneId=settings",
+    "instanseId": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:c3378745-7490-4d05-b97e-75c83109c252::",
+    "certCrn": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:c3378745-7490-4d05-b97e-75c83109c252:certificate:85ae2ead2342de540fa263ed505c4f6f",
+    "certificateName": "certificate-product",
+    "clusterID": "c1ht7bvt0nefet6aav10",
+    "clusterName": "cluster-product",
+    "secretName": "globalsign-secret"
+  }
 }

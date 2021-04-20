@@ -1,11 +1,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-replicaCount: 3
+replicaCount: 1
 revisionHistoryLimit: 1
 image:
-  repository: jp.icr.io/app-product/trace-consumer-api
-  tag: 1.0.0
-  pullSecret: all-icr-io
+  repository: jp.icr.io/app-test/certificate-manager
+  tag: '1.0'
+  pullSecret: default-jp-icr-io
   pullPolicy: IfNotPresent
   resources:
     requests:
@@ -30,7 +30,7 @@ image:
 service:
   name: Cluster
   type: ClusterIP #ClusterIP or NodePort
-  servicePort: 4000
+  servicePort: 3000
   nodePort: 30400 #30000~32767の間
 hpa:
   enabled: false

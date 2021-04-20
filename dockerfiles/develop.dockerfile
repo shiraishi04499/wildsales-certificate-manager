@@ -31,9 +31,9 @@ COPY --from=0 /app/node_modules /app/node_modules
 COPY . /app
 
 ENV NODE_ENV development
-ENV PORT 4000
+ENV PORT 3000
 
 USER node
 
-EXPOSE 4000
+EXPOSE 3000
 CMD ["npm", "start"]

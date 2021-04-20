@@ -1,3 +1,11 @@
 {
-
+  "certificateManager": {
+    "link": "https://cloud.ibm.com/services/cloudcerts/crn%3Av1%3Abluemix%3Apublic%3Acloudcerts%3Ajp-tok%3Aa%2Fc6df066cfa7848ed92f0e835e521fea5%3A3cb245b7-84e6-442e-b11c-af8d88591527%3A%3A?paneId=settings",
+    "instanseId": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:3cb245b7-84e6-442e-b11c-af8d88591527::",
+    "certCrn": "crn:v1:bluemix:public:cloudcerts:jp-tok:a/c6df066cfa7848ed92f0e835e521fea5:3cb245b7-84e6-442e-b11c-af8d88591527:certificate:dd269fd63a4d460a2c3b3c674451372f",
+    "certificateName": "certificate-sales",
+    "clusterID": "bv0ajb9t0jlei7akcoc0",
+    "clusterName": "cluster-sales",
+    "secretName": "secret-o2t"
+  }
 }
